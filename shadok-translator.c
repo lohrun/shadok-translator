@@ -68,5 +68,7 @@ int main(int argc, char * argv[])
         }
     }
     fprintf(stdout, "\n");
+
+    free(output_stack);
     return 0;
 }
