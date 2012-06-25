@@ -38,7 +38,7 @@ int main(int argc, char * argv[])
         return 0;
     }
 
-    while (EOF != fscanf(stdin, "%s", word))
+    while (EOF != fscanf(stdin, "%255s", word))
     {
         for (index = FirstWord; index < WordWount; ++index)
         {
